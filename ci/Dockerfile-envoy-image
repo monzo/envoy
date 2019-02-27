@@ -5,7 +5,7 @@ ENV loglevel=info
 
 RUN apt-get update \
     && apt-get upgrade -y \
-    && apt-get install -y wget ca-certificates \
+    && apt-get install -y wget ca-certificates curl netcat \
     && apt-get autoremove -y \
     && apt-get clean \
     && rm -rf /tmp/* /var/tmp/* \
