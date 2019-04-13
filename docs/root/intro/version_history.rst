@@ -5,6 +5,7 @@ Version history
 ================
 * access log: added a new flag for upstream retry count exceeded.
 * admin: the admin server can now be accessed via HTTP/2 (prior knowledge).
+* admin: the administration interface now includes a /readyz endpoint for easier readiness checks.
 * buffer: fix vulnerabilities when allocation fails.
 * config: added support of using google.protobuf.Any in opaque configs for extensions.
 * config: removed deprecated --v2-config-only from command line config.
